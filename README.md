@@ -42,14 +42,15 @@ To run this project locally:
 │   └── icons/
 
 📸 Screenshots
-You can add screenshots here to showcase different sections of your site.
+![portfolio-full-website-picture](https://github.com/user-attachments/assets/d39d5291-e556-4844-bef5-ce794c2aaa7a)
+
 
 📬 Contact
 If you’d like to get in touch:
 
 Email: shahnawazktk713@gmail.com
 
-LinkedIn: your-linkedin-profile
+LinkedIn: https://www.linkedin.com/in/shahnawaz073/
 Made with ❤️ by Shah Nawaz
 
 Let me know if you'd like it customized with your name, GitHub link, or project screenshots.
