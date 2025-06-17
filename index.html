@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shah Nawaz - Creative Developer</title>
+    <meta name="description" content="Portfolio of Shah Nawaz, a creative developer specializing in web and mobile app development, UI/UX design, and branding. Explore my work and get in touch!">
+    <meta name="keywords" content="Shah Nawaz, Creative Developer, Web Development
+, Mobile App Development, UI/UX Design, Branding, Portfolio">
+    <meta name="author" content="Shah Nawaz">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    
+</head>
+<body class="dark-mode">
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Shah Nawaz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="theme-toggle" onclick="toggleTheme()">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-elements">
+            <div class="floating-element">
+                <i class="fas fa-code" style="font-size: 3rem; color: rgba(255,255,255,0.1);"></i>
+            </div>
+            <div class="floating-element">
+                <i class="fas fa-palette" style="font-size: 2.5rem; color: rgba(255,255,255,0.1);"></i>
+            </div>
+            <div class="floating-element">
+                <i class="fas fa-rocket" style="font-size: 2rem; color: rgba(255,255,255,0.1);"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="fade-in">Hi, I'm Shah Nawaz</h1>
+                        <div class="typing-text fade-in">
+                            <span id="typed-text"></span>
+                            <span class="cursor-blink">|</span>
+                        </div>
+                        <p class="lead fade-in" style="color: rgba(255,255,255,0.8); margin-bottom: 2rem;">
+                            I'm a creative developer specializing in web and mobile app development, UI/UX design, and branding. I create digital experiences that are not only functional but also visually stunning.
+
+        
+                        </p>
+                        <a href="#portfolio" class="cta-button fade-in">View My Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image slide-in-right">
+                        <img src="img/b8.jpg" alt="Shah Nawaz" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content slide-in-left">
+                        <p>I'm a passionate creative developer with over 5 years of experience in crafting exceptional digital experiences. My journey began with a fascination for the intersection of art and technology, leading me to specialize in creating visually stunning and functionally robust web solutions.</p>
+                        
+                        <p>When I'm not coding, you'll find me exploring new design trends, experimenting with emerging technologies, or enjoying a good cup of coffee while sketching out my next creative project.</p>
+                        
+                        <p>I believe in the power of collaboration and am always excited to work with clients who share a passion for innovation and excellence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skills slide-in-right">
+                        <div class="skills-item">
+                            <div class="skill-name">
+                                <span>Frontend Development</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skill-name">
+                                <span>UI/UX Design</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skill-name">
+                                <span>React/Vue.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skill-name">
+                                <span>Node.js</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">My Portfolio</h2>
+            <div class="filter-buttons fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="row" id="portfolio-grid">
+                <div class="col-lg-4 col-md-6 portfolio-item scale-in" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" alt="E-commerce Platform">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" title="View Project"><i class="fas fa-eye"></i></a>
+                                    <a href="#" title="View Code"><i class="fas fa-code"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Platform</h5>
+                            <p class="card-text">Modern e-commerce solution with advanced filtering and seamless checkout experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item scale-in" data-category="app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop" alt="Fitness App">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" title="View Project"><i class="fas fa-eye"></i></a>
+                                    <a href="#" title="View Code"><i class="fas fa-code"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Tracking App</h5>
+                            <p class="card-text">Cross-platform mobile app for tracking workouts and nutrition with social features.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item scale-in" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=300&fit=crop" alt="Brand Identity">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" title="View Project"><i class="fas fa-eye"></i></a>
+                                    <a href="#" title="View Code"><i class="fas fa-code"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Brand Identity Design</h5>
+                            <p class="card-text">Comprehensive branding solution including logo design, color palette, and typography.</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item scale-in" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=400&h=300&fit=crop" alt="Portfolio Website">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" title="View Project"><i class="fas fa-eye"></i></a>
+                                    <a href="#" title="View Code"><i class="fas fa-code"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website</h5>
+                            <p class="card-text">Personal portfolio showcasing my skills, projects, and creative process.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item scale-in" data-category="app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="img/travel_app.jpg" alt="Travel App">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" title="View Project"><i class="fas fa-eye"></i></a>
+                                    <a href="#" title="View Code"><i class="fas fa-code"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Travel Planning App</h5>
+                            <p class="card-text">Intuitive app for planning trips, booking accommodations, and sharing itineraries with friends.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item scale-in" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="img/smb.jpg" alt="Social Media Branding">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" title="View Project"><i class="fas fa-eye"></i></a>
+                                    <a href="#" title="View Code"><i class="fas fa-code"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Social Media Branding</h5>
+                            <p class="card-text">Creating cohesive and engaging social media profiles that reflect brand identity and attract followers.</p>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section"> 
+        <div class="container">
+            <h2 class="section-title fade-in">Services</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card slide-in-left">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h5>Web Development</h5>
+                        <p>Building responsive and interactive websites that deliver exceptional user experiences.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card slide-in-up">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h5>Mobile App Development</h5>
+                        <p>Creating cross-platform mobile applications with a focus on performance and usability.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card slide-in-right">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h5>UI/UX Design</h5>
+                        <p>Designing intuitive and visually appealing interfaces that enhance user engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>      
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Testimonials</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card slide-in-left">
+                        <img src="img/p1.jpeg" alt="John Doe" class="testimonial-avatar">
+                        <h5>John Doe</h5>
+                        <p class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </p>
+                        <p>"Alex transformed our website into a modern, user-friendly platform. His attention to detail and creativity are unmatched!"</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card slide-in-up">
+                        <img src="img/p2.jpeg" alt="Jane Smith" class="testimonial-avatar">
+                        <h5>Jane Smith</h5>
+                        <p class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </p>
+                        <p>"Working with Alex was a pleasure. He delivered a stunning mobile app that exceeded our expectations."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card slide-in-right">
+                        <img src="img/p3.jpeg" alt="Michael Brown" class="testimonial-avatar">
+                        <h5>Michael Brown</h5>
+                        <p class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </p>
+                        <p>"Alex's design skills are top-notch. He created a beautiful website for our business that truly stands out."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form class="contact-form slide-in-left">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control form-control-lg" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control form-control-lg" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+    <div class="contact-info slide-in-right">
+        <h5 class="text-align:center;">Get in Touch</h5>
+        <p>If you have any questions or just want to say hi, feel free to reach out!</p>
+        <div class="contact-item">
+            <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <span>shahnawazktk713@gmail.com</span>
+        </div>
+        <div class="contact-item">
+            <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <span>+92 349 9088073</span>
+        </div>
+        <div class="contact-item">
+            <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <span>Ourbashi, Karak, Pakistan</span>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <a href="#home" class="scroll-top" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+        <span>Scroll to Top</span>
+    </a>
+</body>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+    <script src="main.js"></script>
+</body> 
+</html>
+<!-- End of HTML Document -->
