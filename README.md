@@ -46,7 +46,7 @@ You can add screenshots here to showcase different sections of your site.
 📬 Contact
 If you’d like to get in touch:
 
-Email: your-email@example.com
+Email: shahnawazktk713@gmail.com
 
 LinkedIn: your-linkedin-profile
 Made with ❤️ by Shah Nawaz
